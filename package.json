@@ -1,0 +1,31 @@
+{
+  "name": "pre-school-mobile-app-backend",
+  "version": "1.0.0",
+  "description": "pre-school-mobile-app",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramathmanjitha27/pre-school-mobile-app-backend.git"
+  },
+  "author": "Ramath Suboda Thashmila Kenuri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramathmanjitha27/pre-school-mobile-app-backend/issues"
+  },
+  "homepage": "https://github.com/ramathmanjitha27/pre-school-mobile-app-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
